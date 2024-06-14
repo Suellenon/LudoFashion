@@ -114,7 +114,10 @@ nav a:first-child {
     text-align: center;
 }
 
-
-
-
+.caixa{
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 100px;
+  font-size: 25px;
+}
 
