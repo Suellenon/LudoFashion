@@ -247,15 +247,15 @@ header h1{
    display: inline;
   }
   h3, button{
-    font-size: 25px;
+    font-size: 5px;
     color:var(--BRANCO);
     background-color: var(--preto);
     border:none;
     align-items:start;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 30px;
     width: 40%;
-    margin-left: 30%;
+    margin-left: 0%;
     padding-right: 15px;
    
   }
@@ -300,9 +300,6 @@ header h1{
   font-size: 25px;
 
    
-
-   
-      
        
 
        }
@@ -314,8 +311,6 @@ header h1{
    }
    #cadastro-final{
     
-  
-
    }
    
  
