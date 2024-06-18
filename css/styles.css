@@ -92,6 +92,7 @@ nav a:first-child {
     gap: 1rem;
 
 }
+
 .card {
     border: 1px solid var(--cor-secundaria);
     border-radius: 8px;
@@ -112,25 +113,27 @@ nav a:first-child {
 
 /*sobre a loja*/
 
-header h1{
+header h1 {
     color: var(--BRANCO);
 }
 
- #titulo1{
+#titulo1 {
     align-items: center;
-    font-size:30px;
+    font-size: 30px;
     padding-left: 20px;
     margin-top: 20px;
-  
+
 }
- #imagem{
+
+#imagem {
     height: 310px;
     margin-left: 70%;
     border-radius: 100%;
-  
-    
+
+
 }
-.texto{
+
+.texto {
     font-size: 25px;
     padding-left: 1rem;
     text-align: justify;
@@ -138,17 +141,18 @@ header h1{
     margin-top: 50px;
     padding-top: 20px;
     margin-right: 20%;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: 20px;
     width: 50%;
-   
-    
+
+
 
 }
- #icones{
+
+#icones {
     display: flex;
-    
-    
+
+
     cursor: pointer;
     border-radius: 40px;
     height: 30px;
@@ -156,14 +160,6 @@ header h1{
     margin-top: 45px;
     margin-right: 29%;
 }
-   
- 
-
- 
-
-  
-    
-   
 
 
 
@@ -171,17 +167,14 @@ header h1{
 
 
 
-
-
-    
-   /*Catálago*/
-#catalago{
+/*Catálago*/
+#catalago {
     align-items: center;
     margin-left: 30%;
-    
+
 }
 
-   #categorias{
+#categorias {
 
     margin-top: 10px;
     font-size: 30px;
@@ -189,106 +182,56 @@ header h1{
     background-color: var(--cor-primaria);
     width: 20%;
     height: 50px;
-    border-radius: 10px;}
+    border-radius: 10px;
+}
 
-    
-       
-     #cardcat{
-        width: 30px;
-        margin-left: 30%;
-    }
-    .cat{
+
+
+#cardcat {
+    width: 30px;
+    margin-left: 30%;
+}
+
+.cat {
     list-style: none;
     font-size: 30px;
     margin-left: 10px;
     margin-top: 0px;
- }
-   .input{
+}
+
+.input {
     margin-bottom: 0px;
-  }
+}
 
-   /*cadastro*/
-
-  #cadastro{
-   
-    margin-left:30%;
-    margin-top: 10px;
-   
- 
-  }
-  .cadastrar{
-    position:absolute;
-    background-color: var(--cor-primaria);
-    margin-top:40px ;
-    width: 90px;
-    height: 90px;
-    display: flex;
-    flex-direction: column;
-    padding-right:30%;
-    padding-bottom: 40%;
-    padding-top: 20px;
-    padding-left: 20px;
-    margin-right: 10px;
-    margin-left: 30%;
-    border-radius: 10px;
-    align-items: flex-start;
-    font-size: 25px;
-  
-   
-  }
-  .form-cad{
-   height: 100%;
-   font-size: 40px;
-   height: 40px;
-   display: block;
-   padding-left: 10px;
-   align-content: center;
-   align-items: center;
-   display: inline;
-  }
-  h3, button{
-    font-size: 5px;
-    color:var(--BRANCO);
-    background-color: var(--preto);
-    border:none;
-    align-items:start;
-    margin-top: 10px;
-    margin-left: 30px;
-    width: 40%;
-    margin-left: 0%;
-    padding-right: 15px;
-   
-  }
-  #bot-cad{
-    cursor: pointer;
-    text-decoration:underline;
-    margin: 10px;
-   padding-left:25px;
-    
-  }
-  .fim-cad{
- 
- 
-  margin-top: 20px;
-  margin-left: 90px;
-  }
 
 /*Cadastro do cad*/
-#cadas{
+#cadas {
     background-color: var(--cor-primaria);
-  
-    
-   
-    
-   
+
+
+
+
+
     height: 450px;
     width: 500px;
     border-radius: 20px;
     margin-top: 50px;
 }
-#h1-cadastro{
+
+#h1-cadastro {}
+
+
+
+
+
+.cadast {
+
+
+    width: 50px;
+    font-size: 25px;
 }
 
+<<<<<<< HEAD
     
    
     
@@ -314,12 +257,23 @@ header h1{
    }
    
  
+=======
+#btn-cadastro {
+    width: 70%;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#cadastro-final {}
+
+
+>>>>>>> 89684ccc7d28df3ac085393a7ef6287c5f04d040
 
 /*duvida*/
-    
 
 
-  .titulo1{
+
+.titulo1 {
     margin-left: 30px;
     font-size: 35px;
     align-items: center;
@@ -328,7 +282,8 @@ header h1{
     align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.btn-fale{
+
+.btn-fale {
     background-color: var(--cor-primaria);
     color: var(--BRANCO);
     border-radius: 50px;
@@ -336,84 +291,89 @@ header h1{
     display: flex;
     align-items: center;
     justify-content: center;
-   
-   
+  
+
 }
-   .details{
+
+.details {
     padding: 30px;
     margin: 30px 20px;
     background-color: var(--cor-primaria);
     border-radius: 50px;
     width: 1000px;
 
- }
- #duvida{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
- }
-    
-#duv-final{
+}
+
+#duvida {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#duv-final {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+  
 
 }
+
 /*login*/
 
-#login{
-   display: flex;
-   flex-direction: column;
-   background-color: var(--cor-tres);
-   align-items: center;
-   height:700px;
-   width: 500px;
-   margin-top: 60px;
-   margin-left: 37%;
-   border-radius: 40px;
-   
-  }
-.caixa-login{
+#login {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-tres);
+    align-items: center;
+    height: 700px;
+    width: 500px;
+    margin-top: 60px;
+    margin-left: 37%;
+    border-radius: 40px;
+
+}
+
+.caixa-login {
     display: flex;
     flex-direction: column;
 }
-   
-#login-fim{
+
+#login-fim {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
     font-size: 25px;
     margin-top: 60px;
-   
-    
-   
-   
-   
-}
-#btn-login{
-   cursor: pointer;
-   padding: 0;
 
 
- 
+
+
+
 }
-#login1{
-   font-size: 50px;
-   margin-left: 25%;
-   margin-top: 30px;
+
+#btn-login {
+    cursor: pointer;
+    padding: 0;
+
+
+
 }
-.inputs-login{
-    font-size: 30px;
-    font-family:'Times New Roman', Times, serif;
+
+#login1 {
+    font-size: 50px;
+    margin-left: 25%;
     margin-top: 30px;
-  
-   }
-  
-   .caixa-input{
+}
+
+.inputs-login {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+
+}
+
+.caixa-input {
     height: 40px;
     width: 280px;
-    border:none;
-    }
- 
+    border: none;
+}
