@@ -178,40 +178,33 @@ header h1 {
 
 
 /*Catálago*/
-#catalago {
-    align-items: center;
-    margin-left: 30%;
-
-}
-
-#categorias {
-
-    margin-top: 10px;
-    font-size: 30px;
-    color: var(--preto);
-    background-color: var(--cor-primaria);
+#Categorias{
+    display: flex;
+    flex-direction: column;
+    background-color: #F464C3;
+    justify-content: start;
     width: 20%;
-    height: 50px;
-    border-radius: 10px;
+    font-size: 40px;
+    
+
+    }
+
+#lista-categorias{
+    list-style-type: none;
 }
 
+   
+    
 
 
-#cardcat {
-    width: 30px;
-    margin-left: 30%;
-}
+ 
 
-.cat {
-    list-style: none;
-    font-size: 30px;
-    margin-left: 10px;
-    margin-top: 0px;
-}
 
-.input {
-    margin-bottom: 0px;
-}
+
+
+
+
+
 
 
 /*Cadastro do cad*/
@@ -377,4 +370,42 @@ header h1 {
     height: 40px;
     width: 280px;
     border: none;
+}
+
+/*Categorias*/
+#categorias-tit1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 80px;
+}
+.Categorias{
+    background-color: var(--cor-primaria);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);  
+    color: var(--BRANCO);
+    font-size: 40px; 
+    width: 85%;
+    border-radius: 70px;
+    margin-left: 120px;
+    margin-top: 30px;
+  
+    
+}
+.categorias-2{
+    display:flex ;
+    align-items:center;
+    justify-content: center;
+    margin: 20px;
+
+    
+}
+
+.adicionar {
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+   
 }
