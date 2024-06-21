@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <a href="../index.html">LudoFashion</a>
+        <h1>LudoFashion</h1>
         <form action="" id="form-buscar">
             <input type="search" name="buscar" id="buscar" placeholder="buscar..."></input>
             <button type="submit" id="btn-buscar"><img src="./imgs/buscar.png" alt="" width="30px"></button>
@@ -27,37 +27,46 @@
     </nav>
 
 
-    <section>
-        <form id="inicio-cadastro" action="">
-            <h1 id="h1-cadastro">
-                Cadastrar
-            </h1>
-            <div class="cadast">
-                <label for="text">Nome:</label>
-                <input type="text" name="name" id="" required placeholder="Nome">
-                <label for="text">Nome de Usuário:</label>
-                <input type="text" name="name" id="" required placeholder="Nome de Usuário">
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="" required placeholder="Email">
-                <label for="number">Número de Telefone:</label>
-                <input type="number" name="Número" id="" required placeholder="Número de Telefone">
-                <label for="number">CPF:</label>
-                <input type="number" name="number" id="" required placeholder="CPF">
-                <label for="date">Data de Nascimento:</label>
-                <input type="date" name="data" id="" required placeholder="Data de Nascimento">
+    <section id="inicio-cadastro" >
+        
            
+        <form  action="">
+            <p id="h1-cadastro">
+                Cadastrar
+             </p>
+             
+            
+            <divca class="cadast" >
 
-            <button id="btn-cadastro" type="submit">Cadastrar</button>
+                <label for="text">Nome:</label>
+                <input class="input-cadastro" type="text" name="text" id="text" required placeholder="Nome">
+                <label  for="email">Email:</label>
+                <input class="input-cadastro"type="email" name="email" id="email" required placeholder="Email">
+                <label for="number">CPF:</label>
+                <input class="input-cadastro"type="number" name="number" id="number" required placeholder="CPF">
+            </div>
 
 
+            <div class="coluna-2">
+                <label  for="password">Senha:</label>
+                <input class="input-cadastro"   type="password" name="password" id="password" required placeholder="Sua Senha">
+                <label  for="Número">Número de Telefone:</label>
+                <input class="input-cadastro"type="Número" name="Número" id="Número" required placeholder="Número de Telefone">
+                <label  for="date">Data de Nascimento:</label>
+                <input class="input-cadastro"type="date" name="data" id="date" required placeholder="Data de Nascimento">
+            </div>
             <div id="cadastro-final">
+                <button id="btn-cadastro" type="submit">Cadastrar</button>
                 <a href="../views/login.html">Já tem uma conta cadastrada?</a>
                 <p>
                     Ou
                 </p>
-                <img id="icones-cadastro" src="../imgs/google.png" alt="" height="30px">
-                <img id="icones=cadastro" src="../imgs/insta.png" alt="" height="30px">
+            </div>
+            <div class="icones-cadastro" >
+                <img src="../imgs/google.png" alt="" width="40px">
+                <img src="../imgs/insta.png" alt="" width="40px">
             </div>
         </form>
+        
     </section>
 </body>

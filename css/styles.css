@@ -209,10 +209,25 @@ header h1 {
 
 /*Cadastro do cad*/
 #inicio-cadastro {
+    background-color: var(--cor-primaria);
+    display: flex;
+    flex-direction: column;
+   
+   
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    width: 60%;
+    padding: 40px;
+    margin: 90px;
+    border-radius:40px;
+    
+    
+}
+    
    
  
   
-   }
+   
 
 
 
@@ -223,34 +238,79 @@ header h1 {
    
 
 #h1-cadastro {
+  
+  
+}
+
+
+
+
+
+.cadast { 
+   
+      
+
+}
+   .coluna-2
+  
+   
    
     
-}
+    
+    
+   
+   
+   
 
 
-
-
-
-.cadast {
-}
-#coluna-2{
-}
-
-
-
-#btn-cadastro { color: var(--BRANCO);
+#btn-cadastro {
+    color: var(--BRANCO);
     background-color: var(--preto);
-    width: 80px;
+    text-decoration: underline;
+    width:150px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+   
+   
+  
+   
+   
    
     
 }
 
 #cadastro-final {
+   
+   display: flex;
+   flex-direction: column;
+   margin: 50px;
+   align-items: center;
+   justify-content: center;
+   
+   
+    
+    
+
   
 }
-#icones-cadastro{
-    
+.cadast input{
+   
+    height: 40px;
+    width: 50%;
+    border: none;
+   
 }
+
+
+.icones-cadastro{
+display: block;
+gap: 40px;
+
+
+}
+ 
 
 /*duvida*/
 
@@ -379,6 +439,7 @@ header h1 {
     justify-content: center;
     font-size: 50px;
     margin-top: 80px;
+    gap: 20px;
 }
 .Categorias{
     background-color: var(--cor-primaria);
@@ -396,7 +457,7 @@ header h1 {
 .categorias-2{
     display:flex ;
     align-items:center;
-    justify-content: center;
+    justify-content:center;
     margin: 20px;
 
     
@@ -405,7 +466,20 @@ header h1 {
 .adicionar {
     grid-column: 2;
     display: flex;
-    justify-content: center;
-    margin: 20px;
+    align-items: center;
    
+    justify-content: center;
+    color: var(--BRANCO);
+    margin: 20px;
+    text-align: center;
+    
+    border-radius: 100px;
+    cursor: pointer;
+}
+.adicionar a{
+    border: solid var(--cor-tres);
+    border-radius: 30px;
+    text-decoration: none;
+    color: var(--BRANCO);
+    
 }
