@@ -505,18 +505,21 @@ header h1 {
 #perfil {}
 
 #conjunto {
-    display: inline-flex;
-   width: 60px;
-    background-color: antiquewhite;
-    
-
+    width: 200px;
+   
+    padding-top: 20px;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+   
 
 }
 
 .icones-perfil {
 
-    background-color: aqua;
-    display: flex;
+    margin-right: 10px;
+
+   
   
 }
 
@@ -524,15 +527,37 @@ header h1 {
 
 .links {
 
-    background-color : #FDACE0;
+ 
     color: rgb(121, 111, 111);
-
-
+    display: flex;
+    padding: 15px;
+    font-size: 25px;
+    align-items: center;
 
 }
 
+ 
   
+   #primeiro-h{
+    display:block;
+    width: 100vh;
+    background-color: aquamarine;
+    
    
+  
+
+   }
+.editar-perfil{
+    display: flex;
+    background-color: var(--cor-tres);
+    width: 600px;
+    height: 500px;
+    font-size: 30px;
+    padding: 40px;
+
+}
+
+
 
 
 
@@ -543,7 +568,7 @@ header h1 {
     background-image: url(../imgs/rosas.png);
    
     background-size: cover;
-    height: 100px;
+    height: 100vh;
     
 }
 
@@ -553,9 +578,3 @@ header h1 {
     background-color:var(--cor-tres) ;
 
     }
-.rodapé{
-    background-image: url(../imgs/rosas.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 200px;
-}
