@@ -14,36 +14,36 @@
         <h1>LudoFashion</h1>
         <form action="" id="form-buscar">
             <input type="search" name="buscar" id="buscar" placeholder="buscar..."></input>
-            <button type="submit" id="btn-buscar"><img src="./imgs/buscar.png" alt="" width="30px"></button>
+            <button type="submit" id="btn-buscar"><img src="../imgs/buscar.png" alt="" width="30px"></button>
         </form>
-        <a href="Cadastro.html" class="icon-link"><img src="../imgs/desejo.png" alt="" width="40px">Lista de Desejo</a>
-        <a href="dúvidas.html" class="icon-link"> <img src="../imgs/ajuda.png" alt="" width="40px"> Dúvidas</a>
+        <a href="../views/Minha lista de desejo.html " class="icon-link"><img src="../imgs/desejo.png" alt="" width="40px">Lista de Desejo</a>
+        <a href="../views/duvida.html" class="icon-link"> <img src="../imgs/ajuda.png" alt="" width="40px"> Dúvidas</a>
 
     </header>
     <nav>
-        <a href="./views/catálogo.html">Catálogo</a>
-        <a href="./views/sobre a loja.html a loja.html">Sobre a Loja</a>
+        <a href="../views/catálogo.html">Catálogo</a>
+        <a href="../views/sobre a loja.html">Sobre a Loja</a>
 
 
     </nav>
 
-    <div id="conjunto">
+    <div class="conjunto">
         <aside>
-            <div>
-                <a href="" class="links"><img src="../imgs/perfil.png" alt="" width="50px" class="icones-perfil">Meu
-                    Perfil</a>
-                <a href="../views/" class="links"> <img src="../imgs/desejos.png.png" alt="" width="50px"
-                        class="icones-perfil"> Lista de Desejo</a>
-                <a href="../views/Categorias.html" class="links"> <img src="../imgs/categoria.png" alt="" width="50px"
-                        class="icones-perfil"> Categorias</a>
-                <a href="../" class="links"> <img src="../imgs/produtos.png" alt="" width="50px" class="icones-perfil">
-                    Produtos</a>
-            </div>
-        </aside>
 
+            <a class="links"href="" ><img src="../imgs/perfil.png" alt="" width="50px" class="icones-perfil">Meu
+                Perfil</a>
+            <a href="../views/" class="links"> <img src="../imgs/desejos.png.png" alt="" width="50px"
+                    class="icones-perfil"> Lista de Desejo</a>
+            <a href="../views/Categorias.html" class="links"> <img src="../imgs/categoria.png" alt="" width="50px"
+                    class="icones-perfil"> Categorias</a>
+            <a href="../views/Produtos Cadastrados.html" class="links"> <img src="../imgs/produtos.png" alt=""
+                    width="50px" class="icones-perfil">
+                Produtos</a>
+
+        </aside>
         <main>
             <section>
-                <div id="primeiro-h">
+                <div id="titulo-perfil">
                     <h2>
                         Meu Perfil
                     </h2>
@@ -61,48 +61,66 @@
                     <form action="">
                         <div>
 
-                            <label for="text">Nome de Usuário</label>
-                            <input type="text" name="text" required>
-
                             <div>
-                                <label for="text">Nome:</label>
-                                <input type="text" name="text" required>
+                                <label for="text">Nome de Usuário</label>
+                                <input class="inputs-perfil" type="text" name="text" id="text">
                             </div>
 
-                        </div>
 
-                        <div>
-                            <label for="email">Email:</label>
-                            <input type="email" name="email" required>
-                        </div>
-                      
-
-                        <div>
-                            <label for="number">Nome de Usuário</label>
-                                <input type="number" name="number" required>
-                        </div>
                             <div>
-                                <label for="text"> Sexo</label>
-                                <input type="radio" name="text">
+                                <label for="name">Nome:</label>
+                                <input class="inputs-perfil" type="text" name="text" id="name" required>
+                            </div>
+
+
+
+
+                            <div>
+                                <label for="email">Email:</label>
+                                <input class="inputs-perfil" type="email" name="email" id="email" required>
+                            </div>
+
+
+                            <div>
+                                <label for="tel">Número de Telefone</label>
+                                <input class="inputs-perfil" type="tel" name="tel" id="tel" required>
+                            </div>
+
+                            <div>
+                                <label for="Sexo"> Sexo:</label>
                                 <label for="feminino">Feminino</label>
-                                <input type="radio" name="text" id="">
+                                <input type="radio" name="sexo" id="feminino">
                                 <label for="masculino">Masculino</label>
-                                <input type="radio" name="text" id="">
-                                <label for="Outros">Outros</label>
+                                <input type="radio" name="sexo" id="masculino">
+                                <label for="outros">Outros</label>
+                                <input type="radio" name="sexo" id="outros">
                             </div>
+
 
                             <div>
                                 <label for="number">CPF</label>
-                                <input type="number" name="number">
+                                <input class="inputs-perfil" type="number" name="number" id="number" required>
                             </div>
                             <div>
                                 <label for="date">Data de Nascimento</label>
-                                <input type="date" name="date" id="">
+                                <input class="inputs-perfil" type="date" name="date" id="date">
                             </div>
-                            
-                            <input type="submit">
+                            <div>
+                                <input id="salvar" type="submit" value="Salvar">
+                            </div>
+
                     </form>
                 </div>
+
+
+
+
+
+
+
+
+
+
 
 
             </section>
@@ -117,3 +135,5 @@
 
 
 </body>
+
+</html>

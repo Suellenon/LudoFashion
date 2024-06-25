@@ -210,7 +210,7 @@ header h1 {
 
 
 /*Cadastro do cad*/
-.Cadastro {
+/* .Cadastro {
     display: flex;
 
     justify-content: space-around;
@@ -244,36 +244,6 @@ header h1 {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #btn-cadastro {
     color: var(--BRANCO);
     background-color: var(--preto);
@@ -297,12 +267,6 @@ header h1 {
     display: flex;
     flex-direction: column;
     margin: 50px;
-
-
-
-
-
-
 }
 
 .input-cadastro {
@@ -320,7 +284,74 @@ header h1 {
     gap: 20px;
 
 
+} */
+
+
+.cadastro{
+    
+    background-color: var(--cor-tres);
+    width: 900px;
+    height: 700px;
+    border-radius: 30px;
+    margin:100px;
+    padding: 50px;
+ margin-left: 500px;
+  
 }
+.cadastro h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    
+   
+    
+}
+.dados-cadastro{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    margin: 40px;
+    
+  
+}
+.dados-cadastro input{
+   
+   
+    margin-left: 45px;
+    width: 200px;
+    height: 35px;
+    border: none;
+
+}
+#btn-cadastrar{
+    display: flex;
+    color: var(--BRANCO);
+    height: 40px;
+    width: 150px;
+    background-color:var(--preto);
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    justify-content: center;
+
+  }
+.fim-cad{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 30px;
+  
+}
+   
+.icones-cadastro{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+    
+
 
 
 /*duvida*/
@@ -500,29 +531,25 @@ header h1 {
 }
 
 /*Perfil*/
-#primeiro-p {}
 
-#perfil {}
 
-#conjunto {
-    width: 200px;
+
+
+.conjunto {
+    width: 300px;
    
-    padding-top: 20px;
-    height: 100vh;
+    padding-top: 40px;
+    height: 200vh;
     position: fixed;
     display: flex;
-   
 
 }
+
+ 
 
 .icones-perfil {
-
     margin-right: 10px;
-
-   
-  
 }
-
 
 
 .links {
@@ -533,33 +560,85 @@ header h1 {
     padding: 15px;
     font-size: 25px;
     align-items: center;
+    
 
 }
 
+   
+aside a :hover{
+    background-color: var(--cor-primaria);
+    color: var(--cor-tres);
+}
+   
  
   
-   #primeiro-h{
-    display:block;
-    width: 100vh;
-    background-color: aquamarine;
+   #titulo-perfil{
+    margin: 30px;
+   }
+
+  
+   
     
    
   
 
-   }
-.editar-perfil{
+   
+ .editar-perfil{
     display: flex;
+  
     background-color: var(--cor-tres);
-    width: 600px;
+    width: 990px;
     height: 500px;
     font-size: 30px;
-    padding: 40px;
+    margin: 30px;
+    align-items: enter;
+}
+  
 
+  
+ 
+
+.inputs-perfil{
+
+    margin-left: 50px;
+    width: 360px;
+    height: 30px;
+    border: none;
+    background-color: var(--cor-tres);
+} 
+#salvar{
+    background-color: var(--cor-primaria);
+    width: 80px;
+    display: flex;
+    margin-left: 260px;
+    margin-top: 50px;
+    justify-content: center;
+    height: 40px;
+    font-size: 20px;
+}
+   
+
+    
+   /* Lista de Desejo */
+#titulo-desejo{
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-left: 30px;
+}
+  
+
+
+.caixa-desejo{
+   
 }
 
 
 
 
+
+   
 
 /* Cadastro de produto */
 .cadastro-produto{
@@ -578,3 +657,20 @@ header h1 {
     background-color:var(--cor-tres) ;
 
     }
+
+
+    /* Produtos Cadastrados */
+    .produtos-cadastrados{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+    }
+    .produtos-cadastrados input{
+        border-radius: 40px;
+        background-color: var(--cor-tres);
+        width: 200px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    

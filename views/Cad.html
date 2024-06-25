@@ -14,27 +14,65 @@
         <h1>LudoFashion</h1>
         <form action="" id="form-buscar">
             <input type="search" name="buscar" id="buscar" placeholder="buscar..."></input>
-            <button type="submit" id="btn-buscar"><img src="./imgs/buscar.png" alt="" width="30px"></button>
+            <button type="submit" id="btn-buscar"><img src="../imgs/buscar.png" alt="" width="30px"></button>
         </form>
-        <a href="../views/Cad.html" class="icon-link"><img src="./imgs/icon.png.png" alt="" width="40px">
+        <a href="../views/Cad.html" class="icon-link"><img src="../imgs/icon.png.png" alt="" width="40px">
             Cadastre-se</a>
-        <a href="../views/duvida.html" class="icon-link"> <img src="./imgs/ajuda.png" alt="" width="40px"> Dúvidas</a>
+        <a href="../views/duvida.html" class="icon-link"> <img src="../imgs/ajuda.png" alt="" width="40px"> Dúvidas</a>
 
     </header>
     <nav>
         <a href="../views/catálogo.html">Catálogo</a>
-        <a href="../views/sobre a loja.html a loja.html">Sobre a Loja</a>
+        <a href="../views/sobre a loja.html ">Sobre a Loja</a>
     </nav>
 
 
     <section>
+        <div class="cadastro">
+            <h2>
+                Cadastrar
+            </h2>
+            <form action="">
+                <div class="dados-cadastro">
+                    <label for="text">Nome:</label>
+                    <input type="text" name="text" id="text" required placeholder="Seu Nome">
+                    <label for="password">Senha:</label>
+                    <input type="password" name="password" id="password" required placeholder="Sua Senha">
+                </div>
+                <div class="dados-cadastro">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required placeholder="Email">
+                    <label for="number">Número de Telefone:</label>
+                    <input type="number" name="number" id="number" required placeholder="Seu número de telefone">
+                </div>
+                <div class="dados-cadastro">
+                    <label for="cpf">CPF:</label>
+                    <input type="number" name="number" id="cpf"  placeholder="CPF" required>
+                    <label for="date">Data de Nascimento:</label>
+                    <input type="date" name="date" id="date" required placeholder="sua data de nascimento">
+                </div>
+                
+                <div class="fim-cad">
+                    <input type="button" value="Cadastrar" id="btn-cadastrar">
+                    <a href="../views/login.html">Já tem uma conta cadastrada?</a>
+                    <p>
+                        OU
+                    </p>
+                </div>
+                <div class="icones-cadastro">
+                    <img src="../imgs/google.png" alt="" width="40px">
+                    <img src="../imgs/insta.png" alt="" width="40px">
+                </div>
+            </form>
+
+
+        </div>
 
 
 
 
 
-
-
+        <!-- 
         <div class="Cadastro">
 
             <p>Cadastrar</p>
@@ -77,7 +115,7 @@
                 <img src="../imgs/google.png" alt="" width="40px">
                 <img src="../imgs/insta.png" alt="" width="40px">
             </div>
-        </div>
+        </div> -->
 
 
     </section>
