@@ -287,70 +287,90 @@ header h1 {
 } */
 
 
-.cadastro{
-    
-    background-color: var(--cor-tres);
+.cadastro {
+
+
+
+    background-color: var(--cor-primaria);
     width: 900px;
     height: 700px;
     border-radius: 30px;
-    margin:100px;
+    margin: 80px;
     padding: 50px;
- margin-left: 500px;
-  
+    margin-left: 500px;
+
 }
-.cadastro h2{
+
+.cadastro h2 {
+
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 40px;
-    
-   
-    
+
 }
-.dados-cadastro{
-   
+
+.dados {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.dados-cadastro {
+
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
     font-size: 30px;
-    margin: 40px;
-    
-  
+
+
 }
-.dados-cadastro input{
-   
-   
-    margin-left: 45px;
-    width: 200px;
+
+.dados-cadastro input {
+    width: 300px;
     height: 35px;
     border: none;
 
 }
-#btn-cadastrar{
+
+#btn-cadastrar {
     display: flex;
     color: var(--BRANCO);
     height: 40px;
     width: 150px;
-    background-color:var(--preto);
+    background-color: var(--preto);
     border-radius: 10px;
     cursor: pointer;
     border: none;
     justify-content: center;
-
-  }
-.fim-cad{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   font-size: 30px;
-  
+    align-items: center;
 }
-   
-.icones-cadastro{
+
+.fim-cad {
     display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    gap: 30px;
+    align-items: center;
+}
+
+.icones-cadastro {
+    display: flex;
+
     justify-content: center;
     gap: 20px;
 }
-    
+
+.final {
+
+    position: absolute;
+    right: 45rem;
+    bottom: 3rem;
+
+}
+
 
 
 
@@ -410,69 +430,91 @@ header h1 {
 #login {
     display: flex;
     flex-direction: column;
-    background-color: var(--cor-tres);
     align-items: center;
-    height: 700px;
-    width: 500px;
-    margin-top: 70px;
-    margin-left: 37%;
-    border-radius: 40px;
+    margin: 40px;
 
 }
 
 .caixa-login {
-    display: flex;
-    flex-direction: column;
-
+    background-color: var(--cor-primaria);
+    width: 400px;
+    height: 500px;
+    border-radius: 40px;
+    padding: 70px;
 }
 
-#login-fim {
+.caixa-login h1 {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    font-size: 25px;
-    margin-top: 80px;
-    gap: 10px;
+    justify-content: center;
+    font-size: 30px;
 }
 
 
+.perg-login {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
 
-
+.perg-login input {
+    border: none;
+    height: 30px;
+    padding: 20px;
+}
 
 
 
 
 
 #btn-login {
-    cursor: pointer;
-    padding: 10px;
-    margin: 40px;
-    background-color: var(--preto);
+    display: flex;
+    height: 30px;
+    font-size: 20px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
     color: var(--BRANCO);
-    border: none;
-
-
-
-
-}
-
-#login1 {
-    font-size: 50px;
-    margin-left: 25%;
+    background-color: var(--preto);
     margin-top: 30px;
-}
-
-.inputs-login {
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 30px;
-
-}
-
-.caixa-input {
-    height: 40px;
-    width: 280px;
+    margin-left: 70px;
     border: none;
+    cursor: pointer;
+   
+
+
+}
+
+
+#fim-login p{
+    margin: 10px;
+   padding-left: 100px;
+}
+#fim-login img{
+ display:inline-block;
+margin-left: 20%;
+}
+    
+
+   
+
+ 
+
+
+
+
+
+
+
+.links-login {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.links-login a{
+    color: var(--preto);
+    font-size: 20px;
 }
 
 /*Categorias*/
@@ -537,7 +579,7 @@ header h1 {
 
 .conjunto {
     width: 300px;
-   
+
     padding-top: 40px;
     height: 200vh;
     position: fixed;
@@ -545,7 +587,7 @@ header h1 {
 
 }
 
- 
+
 
 .icones-perfil {
     margin-right: 10px;
@@ -554,38 +596,38 @@ header h1 {
 
 .links {
 
- 
+
     color: rgb(121, 111, 111);
     display: flex;
     padding: 15px;
     font-size: 25px;
     align-items: center;
-    
+
 
 }
 
-   
-aside a :hover{
+
+aside a :hover {
     background-color: var(--cor-primaria);
     color: var(--cor-tres);
 }
-   
- 
-  
-   #titulo-perfil{
+
+
+
+#titulo-perfil {
     margin: 30px;
-   }
+}
 
-  
-   
-    
-   
-  
 
-   
- .editar-perfil{
+
+
+
+
+
+
+.editar-perfil {
     display: flex;
-  
+
     background-color: var(--cor-tres);
     width: 990px;
     height: 500px;
@@ -593,20 +635,21 @@ aside a :hover{
     margin: 30px;
     align-items: enter;
 }
-  
 
-  
- 
 
-.inputs-perfil{
+
+
+
+.inputs-perfil {
 
     margin-left: 50px;
     width: 360px;
     height: 30px;
     border: none;
     background-color: var(--cor-tres);
-} 
-#salvar{
+}
+
+#salvar {
     background-color: var(--cor-primaria);
     width: 80px;
     display: flex;
@@ -616,61 +659,58 @@ aside a :hover{
     height: 40px;
     font-size: 20px;
 }
-   
-
-    
-   /* Lista de Desejo */
-#titulo-desejo{
-
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   margin-left: 30px;
-}
-  
 
 
-.caixa-desejo{
-   
+
+/* Lista de Desejo */
+#titulo-desejo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
 }
 
 
 
+.caixa-desejo {}
 
 
-   
+
+
+
+
 
 /* Cadastro de produto */
-.cadastro-produto{
-   
+.cadastro-produto {
+
     padding: 20px;
     background-image: url(../imgs/rosas.png);
-   
+
     background-size: cover;
     height: 100vh;
-    
+
 }
 
- .prod-cadastrado{
+.prod-cadastrado {
     width: 100%;
     height: 600px;
-    background-color:var(--cor-tres) ;
+    background-color: var(--cor-tres);
 
-    }
+}
 
 
-    /* Produtos Cadastrados */
-    .produtos-cadastrados{
-        display: flex;
-        justify-content: space-around;
-        margin: 20px;
-    }
-    .produtos-cadastrados input{
-        border-radius: 40px;
-        background-color: var(--cor-tres);
-        width: 200px;
-        padding: 10px;
-        cursor: pointer;
-    }
-    
-    
+/* Produtos Cadastrados */
+.produtos-cadastrados {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.produtos-cadastrados input {
+    border-radius: 40px;
+    background-color: var(--cor-tres);
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+}

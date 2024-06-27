@@ -16,7 +16,8 @@
             <input type="search" name="buscar" id="buscar" placeholder="buscar..."></input>
             <button type="submit" id="btn-buscar"><img src="../imgs/buscar.png" alt="" width="30px"></button>
         </form>
-        <a href="../views/Cad.html" class="icon-link"><img src="./imgs/icon.png.png" alt="" width="40px"> Cadastre-se</a>
+        <a href="../views/Cad.html" class="icon-link"><img src="./imgs/icon.png.png" alt="" width="40px">
+            Cadastre-se</a>
         <a href="../views/duvida.html" class="icon-link"> <img src="./imgs/ajuda.png" alt="" width="40px"> Dúvidas</a>
 
     </header>
@@ -25,27 +26,42 @@
         <a href="../views/sobre a loja.html ">Sobre a Loja</a>
     </nav>
     <section id="login">
-       
+
         <div class="caixa-login">
-            <h1 id="login1">
+            <h1>
                 Login
             </h1>
-            <label class="inputs-login" for="email">Email:</label>
-            <input class="caixa-input" type="email" name="email" id="email" required placeholder="Email">
-           <label class="inputs-login" for="password">Senha:</label>
-            <input class="caixa-input"type="password" name="password" id="password" required placeholder="Senha">
-            <button id="btn-login" type="submit">Login</button>
-        </div>
-       
-        <div id="login-fim">
-            <p>Ou</p>
-           
-            <div>
-                <img src="../imgs/google.png" alt="" height="35px">
-                <img src="../imgs/insta.png" alt="" height="35px">
+
+            <form action="">
+                <div class="perg-login">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="perg-login">
+                    <label for="password">Senha:</label>
+                    <input type="password" name="password" id="password" placeholder="Senha" required>
+
+                </div>
+                <button id="btn-login" type="submit">Login</button>
+                <div id="fim-login">
+                    <p>Ou</p>
+                    <img src="../imgs/google.png" alt="" height="35px">
+                    <img src="../imgs/insta.png" alt="" height="35px">
+                </div>
+            </form>
+
+
+
+            
+
+            
+
+            <div class="links-login">
+
+                <a href="../views/Cadastro.html">Cadastrar</a>
+                <a href="">Precisa de Ajuda?</a>
             </div>
 
-            <a href="../views/Cadastro.html">Cadastrar</a>
-            <a href="">Precisa de Ajuda?</a>
+
         </div>
     </section>
