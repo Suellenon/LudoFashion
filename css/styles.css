@@ -316,6 +316,7 @@ header h1 {
     gap: 50px;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .dados-cadastro {
@@ -358,16 +359,20 @@ header h1 {
 
 .icones-cadastro {
     display: flex;
-
     justify-content: center;
     gap: 20px;
+   
+
 }
 
 .final {
 
-    position: absolute;
-    right: 45rem;
-    bottom: 3rem;
+    /* position: absolute; */
+    /* right: 40rem;
+   */
+
+    
+
 
 }
 
