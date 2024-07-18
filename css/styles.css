@@ -180,20 +180,32 @@ header h1 {
 
 
 /*Catálago*/
-#Categorias {
-    display: flex;
-    flex-direction: column;
-    background-color: #F464C3;
-    justify-content: start;
-    width: 20%;
-    font-size: 40px;
+#coluna-catalogo{
+    display:grid ;
+    grid-template-columns:repeat(2, 1fr) ;
+    background-color: bisque;
+    
 
 
 }
 
-#lista-categorias {
-    list-style-type: none;
-}
+ #coluna-catalogo{
+    font-size: 20px;
+    align-items: center;
+   
+
+ }
+   
+.titulo-catalogo{
+ display: flex;
+ text-align: center;
+ 
+    }
+
+
+
+
+   
 
 
 
