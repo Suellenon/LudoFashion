@@ -688,11 +688,13 @@ aside a :hover {
     cursor: pointer;
 }
 
+
+
+
 .versao-mobile {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
     font-size: 20px;
     width: 60%;
     height: 100%;
@@ -701,7 +703,7 @@ aside a :hover {
     top: 9%;
     display: none;
     /* border-radius: 10px; */
-    visibility: hidden;
+     visibility: hidden; 
     z-index: 1;
 
 
@@ -792,10 +794,8 @@ aside a :hover {
 
     .versao-mobile.abrir {
         display: flex;
-        visibility: visible;
-        
+        visibility: visible; 
         text-align: start;
-      
     }
 
 
