@@ -927,4 +927,9 @@ aside a :hover {
         font-size: 20px;
 
     }
+
+    /*perfil*/
+    aside{
+        display: none;
+    }
 }
