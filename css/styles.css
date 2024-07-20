@@ -884,20 +884,26 @@ aside a :hover {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        height: 90px;
+       
 
     }
     .details{
-        width: 300px;
-        height: 100px;
-     
+        width: 420px;
     }
     
     .btn-fale {
-       height: 50px;
+       display: flex; 
+       height: 40px;
+       width: 140px;
        font-size: 20px;
     }
     .btn-fale img{
+        
         height: 25px;
+    }
+    #duv-final img{
+        display: none;
     }
     /*categorias*/
     #categorias-tit1{
