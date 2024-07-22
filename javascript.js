@@ -24,12 +24,12 @@ function barra_lateral() {
 
     if (!isOpen) {
         // Se o menu lateral estiver fechado, abre
-        btnLateral.src = "../imgs/close1.png";
-        btnLateral.style.width = "20px";
+        btnLateral.src = "../imgs/closetest.png";
+        btnLateral.style.width = "25px";
         menuLateral.classList.add('abrir');
     } else {
         // Se o menu lateral estiver aberto, fecha
-        btnLateral.src = "../imgs/burger-bar.png"; // Aqui você define o caminho do ícone de hambúrguer
+        btnLateral.src = "../imgs/test.png"; // Aqui você define o caminho do ícone de hambúrguer
         btnLateral.style.width = "30px"; // Remove a largura definida (volta ao padrão)
         menuLateral.classList.remove('abrir');
     }

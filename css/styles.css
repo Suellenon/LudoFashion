@@ -181,36 +181,46 @@ header h1 {
 
 
 /*Catálago*/
-#coluna-catalogo {
+
+.grid_catalogo{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    background-color: bisque;
-
-
-
+    grid-template-columns: 1fr 11fr;
+   
+   
+    
 }
 
-#coluna-catalogo {
-    font-size: 20px;
-    align-items: center;
-
-
-}
-
-.titulo-catalogo {
+.lateral_input{
     display: flex;
-    text-align: center;
-
+    padding: 10px;
+    margin-left: 10px;
+    
 }
 
 
 
 
+    
+   
 
+.lateral_catalago p{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+     background-color: var(--cor-primaria); 
+    
+   
+    
+   
+  
 
-
-
-
+   
+    
+}
+.lateral_catalago{
+    border-right: solid #ccc;
+    height: 100vh;
+}
 
 
 
@@ -665,10 +675,15 @@ aside a :hover {
 
 }
 
-.prod-cadastrado {
-    width: 100%;
-    height: 600px;
+.cad_prod{
     background-color: var(--cor-tres);
+    height: 70%;
+    justify-content: center;
+   
+}
+.form_cadastro_prod {
+   display: flex;
+   flex-direction: column;
 
 }
 
@@ -700,7 +715,7 @@ aside a :hover {
     height: 100%;
     background-color: var(--cor-tres);
     position: absolute;
-    top: 9%;
+    top: 50px;
     display: none;
     /* border-radius: 10px; */
      visibility: hidden; 
@@ -725,11 +740,13 @@ aside a :hover {
 }
 
 #btn-lateral  {
-    display: none;
+    padding-right: 10px;
+     display: none;
 
 }
 #button{
     display: none;
+   
 }
 
 @media screen and (max-width:1000px) {
@@ -816,9 +833,7 @@ aside a :hover {
 
     #btn-lateral {
         display: flex;
-       
         margin-left: 0px;
-      
         color: var(--cor-tres);
      
 
@@ -828,6 +843,7 @@ aside a :hover {
        display: block;
         background: none;
         border: none;
+        cursor: pointer;
         
        
 

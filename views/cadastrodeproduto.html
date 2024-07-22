@@ -12,23 +12,27 @@
 
 <body>
     <header>
-        <button id="button"><img src="../imgs/burger-bar.png" alt="" width="30px" onclick="barra_lateral()" id="btn-lateral"></button>
+        <button id="button"><img src="../imgs/test.png" alt="" width="30px" onclick="barra_lateral()" id="btn-lateral"></button>
         <h1>LudoFashion</h1>
         <form action="" id="form-buscar">
             <input type="search" name="buscar" id="buscar" placeholder="buscar..."></input>
             <button type="submit" id="btn-buscar"><img src="../imgs/buscar.png" alt="" width="30px"></button>
         </form>
-       
-        <a href="../views/Cad.html" class="icon-link"><img src="../imgs/cadastro.png.png" alt="" width="40px"> Cadastre-se</a>
-        <a href="../views/duvida.html" class="icon-link"> <img src="../imgs/ajuda.png.png" alt="" width="40px"> Dúvidas</a>
-        <a href="../views/Minha lista de desejo.html" class="icon-link"> <img src="../imgs/wishlist.png" alt="" width="40px"> Favoritos</a>
+
+        <a href="../views/Cad.html" class="icon-link"><img src="../imgs/cadastro.png.png" alt="" width="40px">
+            Cadastre-se</a>
+        <a href="../views/duvida.html" class="icon-link"> <img src="../imgs/ajuda.png.png" alt="" width="40px">
+            Dúvidas</a>
+        <a href="../views/Minha lista de desejo.html" class="icon-link"> <img src="../imgs/wishlist.png" alt=""
+                width="40px"> Favoritos</a>
         <a href="../views/Perfil.html" class="icon-link"> <img src="../imgs/perfil.png" alt="" width="40px"> Perfil</a>
 
     </header>
     <nav class="versao-mobile" id="versao-mobile">
         <a href="../views/Cad.html" class=""><img src="../imgs/cadastro.png.png" alt="" width="40px"> Cadastrar</a>
         <a href="../views/duvida.html" class=""> <img src="../imgs/ajuda.png.png" alt="" width="40px"> Dúvidas</a>
-        <a href="../views/Minha lista de desejo.html" class=""> <img src="../imgs/wishlist.png" alt="" width="40px">Favoritos</a>
+        <a href="../views/Minha lista de desejo.html" class=""> <img src="../imgs/wishlist.png" alt=""
+                width="40px">Favoritos</a>
         <a href="../views/Perfil.html" class=""> <img src="../imgs/perfil.png" alt="" width="40px"> Perfil</a>
         <a href="../views/catálogo.html"><img src="../imgs/catalogue.png" alt="" width="40px"> Catálogo</a>
         <a href="../views/sobre a loja.html"><img src="../imgs/info.png" alt="" width="40px">Sobre a Loja</a>
@@ -39,16 +43,30 @@
     </nav>
     <main>
         <section class="cadastro-produto">
-            <h1>
-                Cadastro de Produto
-            </h1>
-            <p>
-                Detalhes do Produto
-            </p>
-            <nav class="prod-cadastrado">
-                <div>
+            <h2> Cadastro de Produto</h2>
+            <p> Detalhes do Produto</p>
+            <nav class="cad_prod">
 
+                <div class="form_cadastro_prod">
+                    <form action="">
+                        <label for="cod_prod">Cod.prod</label>
+                        <input type="number" id="cod_prod">
+                        <label for="nome_prod">Nome do produto</label>
+                        <input type="text" id="nome_prod">
+                        <label for="cor">Cor</label>
+                        <input type="text" id="cor">
+                        <label for="tamanho">Tamanho</label>
+                        <input type="text" id="tamanho">
+                        <label for="descricao">Descrição do produto</label>
+                        <input type="text" id="descricao">
+                        <label for="produto">Adicionar Produto</label>
+                        <input type="file" name="produto" id="produto">
+                        <label for="text">Características do produto</label>
+                        <input type="text" name="características" id="características">
+                        <input type="submit" value="Confirmar">
+                    </form>
                 </div>
+
             </nav>
 
 
@@ -56,8 +74,10 @@
 
 
         </section>
-        </section>
+
     </main>
 
 
 </body>
+
+</html>
