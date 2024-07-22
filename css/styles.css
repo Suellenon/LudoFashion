@@ -590,6 +590,9 @@ aside a :hover {
 
 
 }
+.editar-perfil input{
+   margin-left: 40px;
+}
 
 .grid {
     display: grid;
@@ -641,6 +644,7 @@ aside a :hover {
     justify-content: center;
     height: 40px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 
@@ -953,5 +957,9 @@ aside a :hover {
     /*perfil*/
     aside{
         display: none;
+    }
+    .editar-perfil{
+       font-size: 20px;
+      
     }
 }
