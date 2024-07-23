@@ -223,9 +223,20 @@ header h1 {
 }
 
 
+.catalago{
+   display: flex;
+    padding: 30px;
+    width: 90%;
+    height: 600px;
+    background-color: #F464C3;
+    margin-right: 30px;
+    justify-content: space-between;
 
+}
 
-
+.card-catatalago{
+  
+}
 
 
 
@@ -532,7 +543,8 @@ header h1 {
 
     width: 250px;
     padding-top: 40px;
-    height: 200vh;
+    height:100%;
+   
 
 
 
@@ -651,16 +663,39 @@ aside a :hover {
 
 /* Lista de Desejo */
 #titulo-desejo {
-
-    display: flex;
+     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 30px; 
 }
 
+.lista_desejo{
+    background-color: var(--cor-tres);
+    /* height: 50%; */
+    /* width: 90%; */
+    font-size: 30px;
+    
+    
 
+    
+}
+.lista_desejo img{
+    width: 160px;
+    border-radius: 10px;
+}
+.underline{
+   
+   text-decoration: underline;
+    
+}
+.conj_desejo{
+    display: flex;
+    justify-content: space-between;
+     padding: 20px;
+    align-items: center;
+     
+}
 
-.caixa-desejo {}
 
 
 
@@ -669,34 +704,48 @@ aside a :hover {
 
 
 /* Cadastro de produto */
-.cadastro-produto {
+.p_cad{
 
-    padding: 20px;
-    background-image: url(../imgs/rosas.png);
-
-    background-size: cover;
-    height: 100vh;
-
-}
-
-.cad_prod{
-    background-color: var(--cor-tres);
-    height: 70%;
-    justify-content: center;
+  font-size: 30px;
    
 }
-.form_cadastro_prod {
-   display: flex;
-   flex-direction: column;
 
+
+.cad_prod{
+   
+    background-image: url(../imgs/rosas.png);
+    background-size: cover;
+    height: 100vh;
+   
 }
+
+.form-cad{
+    
+ width: 20vh;
+ height: 70vh;
+   background-color: var(--cor-tres);
+}
+.form-cad input{
+    width: 150px;
+    height: 30px;
+     border: solid var(--cor-primaria);
+}
+
+#enviar_formcad{
+    width: 90px;
+    border-radius: 240px;
+    background-color: var(--cor-primaria);
+}
+    
+
 
 
 /* Produtos Cadastrados */
 .produtos-cadastrados {
     display: flex;
     justify-content: space-around;
-    margin: 20px;
+    font-size: 30px;
+   
 }
 
 .produtos-cadastrados input {
@@ -706,9 +755,28 @@ aside a :hover {
     padding: 10px;
     cursor: pointer;
 }
-
-
-
+.cadastro-produto{
+    background-image: url(../imgs/rosas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:70vh;
+   
+}
+.prod-cadastrado{
+    background-color: var(--cor-tres);
+    padding: 80px;
+    height: 100%; 
+    font-size: 20px;
+   
+   
+}
+.tabela_prod td{
+    border: solid var(--cor-secundaria);
+    width: 300px;
+   height: 70px;
+  padding: 20px;
+  background-color: var(--cor-primaria);
+}
 
 .versao-mobile {
     display: flex;
@@ -961,5 +1029,57 @@ aside a :hover {
     .editar-perfil{
        font-size: 20px;
       
+    }
+    /*favoritos*/
+    .conj_desejo{
+        
+        display: flex;
+        flex-direction: column;
+       font-size: 20px;
+       width: 300px;
+       text-align: center;
+        
+    }
+    .lista_desejo{
+      background-color: var(--BRANCO);
+       padding: 40px;
+    }
+    #titulo-perfil{
+        text-align: center;
+    }
+    /*prod.cadastrados*/
+    .produtos-cadastrados{
+        font-size: 20px;
+        width: 20px;
+        text-align: center;
+        align-items: center;
+       
+        
+    }
+    .produtos-cadastrados input{
+        width: 160px;
+      margin-left: 140px;
+    }
+    .tabela_prod{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+       
+        
+       
+       
+    }
+    .prod-cadastrado{
+        background-color: var(--BRANCO);
+      
+       
+      justify-content: center;
+    
+    }
+    
+    .cadastro-produto{
+        display: flex;
+        flex-direction: column;
+     
     }
 }
