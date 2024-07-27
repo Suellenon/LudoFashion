@@ -799,12 +799,64 @@ aside a :hover {
 
 }
 
+/*Destalhe do produto*/
+.coluna_imgs{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   padding: 40px;
+   
+}
+.grid_detalhe{
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr 6fr;
+  
+}
+.img_maior{
+    padding: 40px;
+}
+.descricao{
+   font-size: 25px;
+   padding: 20px;
+
+  
+}
+.descricao p{
+    margin: 30px;
+   
+}
+.descricao button{
+    border-radius: 500px;
+    width: 30px;
+    height: 20px;
+}
+.buscar_por_categorias{
+    width: 80px;
+    margin: 20px;
+    background-color: var(--cor-tres);
+    border-radius: 40px;
+}
+
+
 .versao-mobile a {
     padding: 20px;
     text-decoration: none;
     color: var(--preto);
     width: 100%;
 
+}
+/*detalhes */
+.imgs_detalhes {
+ margin: 50px;
+
+ 
+ 
+}
+.imgs_detalhes p{
+    display: flex;
+     margin: 40px;
+    font-size: 25px;
+    border: solid var(--cor-primaria);
 }
 
 .versao-mobile a:hover {
