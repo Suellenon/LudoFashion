@@ -592,13 +592,35 @@ aside a :hover {
 .editar-perfil {
 
     background-color: var(--cor-tres);
-    /* width: 90%;
-    height: 100%; */
+     width: 70%;
+    height: 80%; 
     font-size: 30px;
-    display: grid;
-    grid-template-columns: 6fr 6fr;
+    padding: 30px;
+ 
+  
+    
+  
  
 
+
+}
+.dados{
+display: flex;
+justify-content: start; 
+margin-bottom: 10px;
+
+}
+.dados input{
+  width: 400px;
+  height: 30px;
+  margin:auto;
+
+}
+#radio{
+   
+
+   
+  
 
 }
 .editar-perfil input{
@@ -627,7 +649,8 @@ aside a :hover {
     background-color: var(--cor-primaria);
     width: 80px;
     display: flex;
-    margin-left: 260px;
+    margin: auto;
+    /* margin-left: 260px; */
     margin-top: 50px;
     justify-content: center;
     height: 40px;
